@@ -1,0 +1,31 @@
+Show ingest progress in stages (cloning, chunking, embedding %) in the UI.
+one.
+Add a friendly scope reply for off-topic questions like “can you answer anything other than this repo?”.
+Backfill GitHub links for older history entries, and check /query/stream returns linked citations too.
+Add a “revoke share link” button in the UI (the backend DELETE /share/{id} already exists).
+
+
+
+
+Per-key rate limits and a monthly credit cap.
+9. “Last used” and usage per key on the Developer page.
+10. Free starter credits for new accounts.
+11. A quickstart and short API reference (curl, Python, JavaScript).
+12. One integration built on the key: a Slack bot, or a GitHub Action that re-indexes on release.
+13. Later: a file upload endpoint with a document chunker, and named collections.
+
+14. Code graph (calls, imports, definitions) built at index time.
+15. Agentic retrieval with “open file”, “find references” and “grep” tools, with a step limit.
+16. Optional: sandbox test runs to verify answers.
+
+Azure and reliability
+17. Run workers as Container Apps or AKS pods that scale with queue length.
+18. Shared index for popular public repos.
+19. Health checks, logging and an alert if the worker is down.
+20. A single docker compose up that starts Redis, Postgres, API and worker for local setup.
+21. Make sure the web server serves index.html for /share/... paths so refresh works.
+22. Add the missing .env.example and a GET /auth/me route (your log shows a 404).
+
+Security and trust
+23. A short “where your code lives and how to delete it” page.
+24. Per-IP login throttling.

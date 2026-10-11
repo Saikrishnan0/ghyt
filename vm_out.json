@@ -1,0 +1,10 @@
+{
+  "fqdns": "",
+  "id": "/subscriptions/a1a045eb-02a0-46ba-aab4-4f28b47e576e/resourceGroups/codesage-rg/providers/Microsoft.Compute/virtualMachines/codesage-vm",
+  "location": "centralindia",
+  "macAddress": "70-A8-A5-A7-DD-10",
+  "powerState": "VM running",
+  "privateIpAddress": "10.0.0.4",
+  "publicIpAddress": "20.219.33.195",
+  "resourceGroup": "codesage-rg"
+}
